@@ -57,6 +57,7 @@ nav li {
 
 main {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /* p{
@@ -69,6 +70,17 @@ main {
   background-color: rgb(211, 230, 250);
   margin: 10px;
   padding: 15px;
+}
+
+.tweet:nth-child(3n) {
+  grid-column: 1/3;
+  background-color: rgb(228, 211, 250);
+  border: solid 3px rgb(87, 6, 116);
+}
+
+.tweet.tweet:nth-child(2n) {
+  background-color: rgb(250, 211, 245);
+  border: solid 3px rgb(116, 6, 105);
 }
 
 .pics {
@@ -89,6 +101,11 @@ aside {
 .hashtag {
   border: solid 2px black;
   border-radius: 20px;
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
+  cursor: pointer;
+}
+
+.hashtag:hover {
+  background-color: grey;
 }
