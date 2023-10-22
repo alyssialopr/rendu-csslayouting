@@ -51,13 +51,7 @@ nav li {
 
 main {
   display: grid;
-  /* grid-template-columns: 2/3; */
-  /* grid-template-columns: repeat(2, 1fr); */
 }
-
-/* p{
-    
-} */
 
 .tweet {
   border: solid 3px rgb(6, 58, 116);
