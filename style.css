@@ -7,6 +7,10 @@
   font-family: sans-serif;
 }
 
+body {
+  background-color: rgb(247, 229, 185);
+}
+
 nav {
   background-color: rgb(125, 227, 160);
   height: 80px;
@@ -93,10 +97,11 @@ aside {
   padding: 10px;
   margin: 10px;
   cursor: pointer;
+  background-color: rgb(238, 162, 154);
 }
 
 .hashtag:hover {
-  background-color: grey;
+  background-color: rgb(163, 131, 127);
 }
 
 .name{
